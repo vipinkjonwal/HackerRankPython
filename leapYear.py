@@ -1,3 +1,7 @@
+'''
+Question : This programs tests whether the given year is leap year or not.
+'''
+
 def checkLeap(year):
 	leap = False
 	if ((year%4)==0 and (year%100!=0)):
